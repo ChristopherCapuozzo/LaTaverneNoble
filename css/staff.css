@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+
+/*################# HEADER ####################*/
+
+header {
+    border-bottom: black 2px solid;
+}
+
+header img{
+    border: black 2px solid;
+    left: 2%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.nom-menu {
+    position: relative;
+    left: 10%;
+    overflow-x: hidden;
+    font-size: 50px;
+    font-family: "PoppinsBold";
+    text-shadow: 4px 2px 2px #FFFFFF;
+}
+
+#menu-top {
+    background-color: #D98802;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu-top ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+
+.menu {
+    display: flex;
+}
+
+/*################# BOUTON ####################*/
+
+
+.menu button {
+    width: 100px;
+    height: 40px;
+}
+
+
+.other {
+    background-color: transparent;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 12px;
+    color: black;
+    font-family: "PoppinsRegular";
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+.other:hover {
+    background-color: black;
+    color: white;
+}
+
+/*################# SECTION 1 ####################*/
+
+#section-1 {
+    width: 100%;
+    height: 68vh;
+
+}
+
+
+.block-all {
+    width: 100%;
+}
+
+.block-1 {
+    display: flex;
+    width: 138%;
+    height: 100%;
+    padding-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.block-2 {
+    display: flex;
+    width: 138%;
+    height: 100%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+
+
+/*################# STAFF LIST ####################*/
+
+.staff-lolo {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-lolo:hover {
+    transform: translate(107%, 63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+/*#############################################*/
+
+.staff-kristyn {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-kristyn:hover {
+    transform: translate(0%, 63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/*#############################################*/
+
+.staff-nyktalyto {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-nyktalyto:hover {
+    transform: translate(-107%, 63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/*#############################################*/
+
+.staff-jannar {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-jannar:hover {
+    transform: translate(107%, -63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/*#############################################*/
+
+.staff-PepperMad {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-PepperMad:hover {
+    transform: translate(0%, -63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+/*#############################################*/
+
+.staff-miyalumix {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.staff-miyalumix:hover {
+    transform: translate(-107%, -63%) scale(1.8);
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+
+/*#############################################*/
+
+.membre {
+    width: 60%;
+    height: 70%;
+    border-radius: 50%;
+    border: black 2px solid;
+    margin-bottom: 10px;
+    transition: 1.2s;
+}
+
+.membre:hover {
+    border-color: white;
+}
+
+
+.role {
+    font-family: "PoppinsBold";
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-family: "PoppinsRegular";
+    font-size: 15px;
+}
+
+
+/*################# SECTION 2 ####################*/
+
+#section-2 {
+    margin-top: 4%;
+    width: 100%;
+    height: 38vh;
+}
+
+
+.block-info {
+    width: 100%;
+}
+
+.info-grade {
+    display: flex;
+    width: 138%;
+    height: 100%;
+    padding-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+}
+
+
+/*################# LIST ####################*/
+
+.proprietaire {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.patron-bar {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.tenancier-bar {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.pilier-bar {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+.sam {
+    background-color: #D98802;
+    border: black 2px solid;
+    width: 12%;
+    margin: 11px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+
+/*################# FOOTER ####################*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #D98802;
+    border-top: black 2px solid;
+    display: flex;
+    text-align: center;
+    position: absolute;
+}
+
+.logo-footer {
+    border: black 2px solid;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:2%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.owner {
+    font-size: 11px;
+    font-family: "PoppinsRegular";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+

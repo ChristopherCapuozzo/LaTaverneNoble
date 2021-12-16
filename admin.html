@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!--################  HEAD  ###################-->
+    <head>
+        <!--################  META  ###################-->
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!--################  LINK  ###################-->
+        <link rel='stylesheet' type='text/css' href="css/admin.css">
+        <link rel='stylesheet' type='text/css' href="css/fonts.css">
+        <link rel="shortcut icon" type="image/ico" href="./img/connect.ico">
+        <!--################  TITLE  ###################-->
+        <title>Admin - Connexion</title>
+    </head>
+    <!--################  BODY  ###################-->
+    <body>
+        <div class="form">
+            <form class="admin-form" id="myForm" action="" method="post">
+                <div class="input">
+                    <!--################  IDENTIFIANT  ###################-->
+                    <label class="log" for="mail">Identifiant</label>
+                    <input class="entry" type="text" placeholder="Idenfiant . . ." id="username">
+
+                    <!--################  MOT DE PASSE ###################-->
+                    <label class="log" for="password">Mot de passe</label>
+                    <input class="pass" type="password" placeholder="Mot de passe . . ." id="password">
+                    
+                    <!--################  BOUTON ###################-->
+                    <button class="back"><a href="index.html">Retour</a></button>
+                    <button class="acces" type="submit"><!--<a href="pannel.html">Confirmer</a>-->Confirmer</button>
+                </div>
+                <div class="mdp-perdu">
+                    <button class="reset" onclick="alert ('Voila comment ne pas perdre son mot de passe !')"><a href="https://www.codeur.com/blog/conseils-securiser-mots-de-passe/" target="_blank">Mot de passe oublier ?</a></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

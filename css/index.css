@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+/*################# HEADER ####################*/
+
+header {
+    border-bottom: black 2px solid;
+}
+
+header img{
+    border: black 2px solid;
+    left: 2%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.nom-menu {
+    position: relative;
+    left: 10%;
+    overflow-x: hidden;
+    font-size: 50px;
+    font-family: "PoppinsBold";
+    text-shadow: 4px 2px 2px #FFFFFF;
+}
+
+#menu-top {
+    background-color: #D98802;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu-top ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+
+.menu {
+    display: flex;
+}
+
+/*################# BOUTON ####################*/
+
+
+.menu button {
+    width: 100px;
+    height: 40px;
+}
+
+.admin-bouton {
+    background-color: transparent;
+    border: transparent 2px solid;
+}
+
+.admin {
+    color: transparent;
+}
+
+.other {
+    background-color: transparent;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 12px;
+    color: black;
+    font-family: "PoppinsRegular";
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+.other:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*################# SECTION 1 ####################*/
+
+#section-1 {
+    background-image: url(../img/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 77vh;
+    text-align: center;
+    display: flex;
+}
+
+
+.stat {
+    background-color: #7289DA;
+    border: black 2px solid;
+    border-radius: 10px;
+    color: white;
+    font-family: "Discord";
+    padding: 3px;
+    height: 25px;
+    position: relative;
+}
+
+
+
+.discord-affiche {
+    margin-left: auto;
+    margin-top: 3%;
+    margin-right: 25px;
+}
+
+.discord {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+    border: black 2px solid;
+}
+
+/*################# FOOTER ####################*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #D98802;
+    border-top: black 2px solid;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.logo-footer {
+    border: black 2px solid;
+    width: 50px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:2%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.owner {
+    font-size: 11px;
+    font-family: "PoppinsRegular";
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
